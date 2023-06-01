@@ -153,7 +153,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
-          TARGET: "/www/wwwroot/${{ secrets.REMOTE_HOST }}/OpenWrt/firmware-ZY-ESXi"
+          TARGET: "/www/wwwroot/${{ secrets.REMOTE_HOST }}/OpenWrt/firmware-ESXi-ZY"
 
     - name: Upload firmware to cowtransfer
       id: cowtransfer
