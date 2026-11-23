@@ -105,7 +105,7 @@ jobs:
         echo "CACHE_WEEK=$(date +%G-W%V)" >> $GITHUB_ENV
 
     - name: Cache toolchain
-      uses: actions/cache@v6
+      uses: actions/cache@v5
       with:
         path: |
           /workdir/openwrt/staging_dir/host*
